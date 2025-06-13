@@ -4,16 +4,9 @@
 
 ---
 
-## 🚀 Overview
+## About
 
-**InternTrack AI** is a backend service(for now) that listens to incoming WhatsApp messages (via `whatsapp-web.js`), parses them using a **local LLM** (e.g., Mistral via Ollama), and extracts structured information such as:
-
-- Company Name  
-- Event Type (Drive, Test, Interview, etc.)
-- Date and Time  
-- Important Links or Actions  
-
-The parsed data is then **automatically synced to a Notion database** to help students organize placement details without manual effort.
+This project was built to automate the organization and tracking of internship and placement opportunities shared by my college’s Training & Placement cell on WhatsApp. Managing these messages manually was inefficient and error-prone, so this backend streamlines the process by parsing messages with LLMs and syncing structured data to Notion.
 
 ---
 
@@ -90,6 +83,8 @@ ollama run mistral
 ```bash
 npm run dev
 ```
+---
+
 ## License
 
 This project is licensed under the MIT License.

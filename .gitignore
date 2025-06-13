@@ -26,7 +26,7 @@ whatsapp_message_log.json
 
 # Logs
 logs/
-*.json
+
 
 # Optional: coverage reports
 coverage/
