@@ -1,0 +1,35 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# dotenv environment variables
+.env
+
+# VSCode settings
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Notion/whatsapp-web.js auth/session
+wwebjs/
+.wwebjs_auth/
+.wwebjs_session/
+.wwebjs_cache/
+.wwebjs_*
+
+# WhatsApp Web.js logs
+whatsapp_message_log.json
+
+# Logs
+logs/
+*.json
+
+# Optional: coverage reports
+coverage/
+
+# Optional: OS generated files
+Thumbs.db
